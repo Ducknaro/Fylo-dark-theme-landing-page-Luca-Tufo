@@ -1,0 +1,56 @@
+body{
+ background-color: $dark-background;
+}
+
+#main-head{
+ min-width: 100%;
+ max-width: 100%;
+}
+
+#main-head nav{
+ display: flex;
+ align-items: center;
+ padding: 3rem;
+ flex-wrap: wrap;
+}
+
+
+#main-head nav ul li{
+ color:white;
+ font-family: 'Roboto', sans-serif;
+
+ font-size: $font-size;
+
+}
+
+#main-head nav ul{
+ display: flex;
+ flex: 1 1 20rem;
+ justify-content: space-between;
+}
+
+
+
+
+#main-head nav .img1{
+ margin-right: 30rem;
+ display: flex;
+ flex: 3 1 10rem;
+
+}
+
+
+// #main-head nav .img1 img{
+//  width: 100%;
+// }
+
+
+
+
+ul{
+ list-style: none;
+}
+a{
+ text-decoration: none;
+}
+

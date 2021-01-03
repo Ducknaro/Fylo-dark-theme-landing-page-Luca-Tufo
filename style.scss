@@ -1,0 +1,44 @@
+/* COLOR SECTION*/
+$dark-intro: hsl(217, 28%, 15%);
+$dark-background: hsl(218, 28%, 13%);
+$dark-footer: hsl(216, 53%, 9%);
+$dark-testimonials:  hsl(219, 30%, 18%);
+$Cyan: hsl(176, 68%, 64%);
+$Blue: hsl(198, 60%, 50%);
+$Light-red: hsl(0, 100%, 63%);
+$neutral-white: hsl(0, 0%, 100%);
+$font-size: 25px;
+
+/* FONT RALEWAY*/
+@font-face{
+ font-family: 'raleway-400';
+ src: url('../fonts/static/Raleway-Regular.ttf');
+}
+
+@font-face{
+ font-family: 'raleway-700';
+ src: url('../fonts/static/Raleway-Bold.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+
+
+@mixin flex($direction,$justify,$align){
+ display: flex;
+ flex-direction: $direction;
+ justify-content: $justify;
+ align-items: $align;
+}
+
+@import "global";
+@import "nav";
+@import "container";
+@import "wrapper";
+@import "forth";
+@import "testimonial";
+@import "fifth";
+@import "footer";
+@import "media";

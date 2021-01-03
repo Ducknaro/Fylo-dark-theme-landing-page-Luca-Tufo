@@ -1,0 +1,42 @@
+.wrapper .wrap1{
+ grid-area: box1;
+}
+
+.wrapper .wrap2{
+ grid-area:box2;
+}
+.wrapper .wrap3{
+ grid-area:box3;
+}
+.wrapper .wrap4{
+ grid-area:box4
+}
+
+
+
+.wrapper{
+ display: grid;
+ grid-template-areas:
+ "box1 box2"
+ "box3 box4";
+ margin-top:5rem;
+ justify-items: center;
+
+}
+
+.wrapper .wrap{
+ color:white;
+ padding: 3rem;
+ font-family: 'Roboto', sans-serif; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.wrapper .wrap h3{
+ margin: 1rem 0rem;
+}
+.wrapper .wrap p{
+ text-align:center;
+}

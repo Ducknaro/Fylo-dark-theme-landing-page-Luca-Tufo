@@ -1,0 +1,49 @@
+.fifthh{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color:white;
+ background-color: $dark-testimonials;
+ margin-right: 4rem;
+ margin-left: 4rem;
+ transform: translateY(80%);
+ flex-direction: column;
+
+}
+
+.fifthh .fifth1 h1{
+ font-family: 'Roboto', sans-serif; 
+}
+
+.fifthh .fifth2 p{
+ font-family: 'Source Sans Pro', sans-serif;
+ margin-top: 2rem;
+ text-align: center;
+}
+
+
+.fifthh .fifth-row{
+ display: flex;
+ flex-direction: row;
+ margin-top: 3rem;
+ flex-wrap: wrap;
+
+}
+
+
+.fifthh .fifth-row .row1 input{
+ padding: 1rem 0.5rem;
+ border-radius: 25px;
+}
+.fifthh .fifth-row .row2{
+ margin-left: 2.5rem;
+}
+
+.fifthh .fifth-row .row2 button{
+ padding: 1rem 0.5rem;
+ color:white;
+ background-color: $Cyan;
+ border-radius: 25px;
+
+}
+

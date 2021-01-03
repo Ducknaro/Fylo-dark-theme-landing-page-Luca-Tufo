@@ -1,0 +1,118 @@
+@media all and (max-width: 1205px){
+ .testimonials .test{
+  margin-bottom: 4rem;
+ }
+}
+
+
+
+
+@media all and (max-width: 1065px){
+ #main-head nav .img1{
+  padding: 5rem;
+ }
+}
+
+// @media all and (max-width: 790px){
+//  .footer{
+//   padding-top:10rem;
+//  }
+// }
+
+@media all and (max-width:984px){
+ // .footer .footer4{
+ //  padding: 3rem;
+ // }
+ footer{
+  margin-top:10rem;
+ }
+}
+
+@media all and (max-width: 774px){
+ .fifthh .fifth-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+ }
+ .fifthh .fifth-row .row1{
+  margin-bottom: 2rem;
+ }
+ // .footer{
+ //  padding-top:30rem;
+ // }
+ // .footer .footer1{
+ //  padding: 3rem;
+ // }
+ .footer{
+  margin-top: 20rem;
+ }
+}
+
+@media all and (max-width:763px){
+ .forthh .forth2{
+  margin-top:5rem;
+  margin-right: 5rem;
+  
+ }
+.forthh .forth2 p{
+ font-size:14px;
+}
+.forthh{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.forthh{
+ margin-right: 5rem;
+}
+}
+
+
+
+@media all and (max-width: 663px){
+
+ .wrapper{
+  grid-template-areas:
+  "box1"
+  "box2"
+  "box3"
+  "box4";
+ }
+ .fifthh .fifth-row .row1 input,
+ .fifthh .fifth-row .row2 button{
+  padding: 0.5rem 0.2rem;
+ }
+}
+
+
+@media all and (max-width: 482px){
+ .forthh{
+  padding:6rem;
+ }
+ .footer .footer3{
+  display: grid;
+  grid-template-areas:
+  "about"
+  "contact"
+  "job"
+  "press"
+  "privacy"
+  "term"
+  "blog";
+  margin-top: 5rem;
+ }
+}
+
+@media all and (max-width:390px){
+ .footer{
+  height: 150vh;
+ }
+ // .forthh,
+ // .container,
+ // .fifthh,
+ // #main-head nav .img1,
+ // #main-head{
+ //  display:none;
+ // }
+}

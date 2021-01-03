@@ -1,0 +1,34 @@
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-top: 10rem;
+ max-width: 100%;
+ font-family: 'Roboto', sans-serif;
+
+}
+
+.container .box1 img{
+ max-width: 100%;
+}
+
+.container .box{
+ color:white;
+}
+
+.container .box2{
+ padding: 3rem;
+}
+.container .box2 h1,
+.container .box3 p{
+ text-align: center;
+}
+
+.container .box4 button{
+ padding: 1rem 3rem;
+ border-radius: 25px;
+ background-color: $Blue;
+ color:white;
+ margin-top: 3rem;
+}

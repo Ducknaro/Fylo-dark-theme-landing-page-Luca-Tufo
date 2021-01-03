@@ -1,0 +1,113 @@
+body{
+ animation: opacity 1s ease-in;
+}
+
+.footer{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 5rem;
+ background-color: $dark-footer;
+ max-width: 100%;
+ height: 70vh;
+ padding: 5rem 3rem 0rem 3rem;
+ color:white;
+ flex-wrap: wrap;
+}
+
+
+
+
+
+.footer .footer1{
+ display: flex;
+ flex-direction:row;
+ margin-right: 3rem;
+}
+.footer .footer1 img{
+ margin-right: 0.5rem;
+ border-radius: 50%;
+ width: 20px;
+ margin-top: 0.2rem;
+ height: 30px;
+}
+
+
+.footer .footer2 p{
+ margin-top: 1rem;
+}
+
+
+.footer .footer3 .about{
+ grid-area:about;
+}
+.footer .footer3 .contact{
+ grid-area:contact;
+}
+.footer .footer3 .job{
+ grid-area:job;
+}
+.footer .footer3 .term{
+ grid-area:term;
+}
+.footer .footer3 .press{
+ grid-area:press;
+}
+.footer .footer3 .privacy{
+ grid-area:privacy;
+}
+.footer .footer3 .blog{
+ grid-area:blog;
+}
+
+.footer .footer3 .ft{
+ margin-right: 2rem;
+ margin-left: 2rem;
+ margin-bottom: 0.5rem;
+}
+
+
+.footer .footer3{
+ display: grid;
+ grid-template-areas:
+ "about contact"
+ "job term"
+ "press privacy"
+ "blog .";
+}
+
+.footer .footer4 a{
+ margin-right: 2rem;
+ margin-left: 2rem;
+ 
+ cursor: pointer;
+ color:white;
+ background-color:black;
+ border-radius: 50%;
+ border: 1px solid white;
+}
+
+footer{
+ text-align: center;
+ color:white;
+ margin-top: 20rem;
+}
+
+footer p a{
+ text-decoration: none;
+ color:white;
+}
+footer p a:hover{
+ text-decoration: underline;
+}
+
+
+
+@keyframes opacity {
+ from{
+  opacity: 0;
+ }
+ to{
+  opacity: 1;
+ }
+}

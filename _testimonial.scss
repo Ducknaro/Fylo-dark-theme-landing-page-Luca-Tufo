@@ -1,0 +1,53 @@
+.testimonials{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ max-width: 100%;
+ flex-wrap: wrap;
+ color:white;
+ margin:10rem 5rem 0rem 5rem;
+
+}
+
+
+
+
+
+
+.testimonials .test{
+ background-color: $dark-testimonials;
+ margin: 0rem 0.5rem;
+ z-index: 1;
+ flex: 1 1 20rem;
+ padding: 2rem;
+}
+
+.testimonials .test p{
+ font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.testimonials .test .row{
+ display: flex;
+ flex-direction: row;
+ margin-top:1.5rem;
+
+}
+
+.testimonials .test .row  > h5{
+ font-family: 'Roboto', sans-serif; 
+ margin: 0.5rem 1rem;
+}
+.testimonials .test .row h5 .span{
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.testimonials .test p{
+ text-align: left;
+}
+
+.testimonials .test .row > img{
+ border-radius:50%;
+ width:45px;
+ height: 45px;
+}
